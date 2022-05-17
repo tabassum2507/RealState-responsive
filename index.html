@@ -1,20 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>ReDox</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          ReDox <i class="bx bxs-home-alt-2"></i>
+        </a>
 
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#Property" class="nav__link">
+                <i class="bx bx-building-house"></i>
+                <span>Property</span>
+              </a>
+            </li>
 
+            <li class="nav__item">
+              <a href="#Service" class="nav__link">
+                <i class="bx bx-file"></i>
+                <span>Service</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#Product" class="nav__link">
+                <i class="bx bx-home-heart"></i>
+                <span>Product</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#AboutUs" class="nav__link">
+                <i class="bx bx-phone-call"></i>
+                <span>About Us</span>
+              </a>
+            </li>
+
+            <a href="" class="button nav__button"> Subscribe </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Discover <br />
+              Most Suitable <br />
+              Property
+            </h1>
+
+            <p class="home__description">
+              Find variety of properties that suit you very easily, forget all
+              difficulties in finding a residence for you.
+            </p>
+
+            <form action="" class="home__search">
+              <i class="bx bxs-map"></i>
+              <input
+                type="search"
+                placeholder="Search by location....."
+                class="home__search-input"
+              />
+              <button class="button">Search</button>
+            </form>
+
+            <div class="home__value">
+              <div>
+                <h1 class="home__value-number">9K <span>+</span></h1>
+                <span class="home__value-description">
+                  Premium <br />
+                  Product
+                </span>
+              </div>
+
+              <div>
+                <h1 class="home__value-number">2K <span>+</span></h1>
+                <span class="home__value-description">
+                  Happy <br />
+                  Customers
+                </span>
+              </div>
+
+              <div>
+                <h1 class="home__value-number">28K <span>+</span></h1>
+                <span class="home__value-description">
+                  Award <br />
+                  Wining
+                </span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="home__images">
+            <div class="home__orbe"></div>
+
+            <div class="home__img">
+              <img src="assets/imgs/home.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== LOGOS ====================-->
+      <section class="logos section">
+          <div class="logos__container container grid">
+              <div class="logos__img">
+                  <img src="assets/imgs/logo1.png" alt="">
+              </div>
+
+              <div class="logos__img">
+                <img src="assets/imgs/logo2.png" alt="">
+            </div>
+
+            <div class="logos__img">
+                <img src="assets/imgs/logo3.png" alt="">
+            </div>
+
+            <div class="logos__img">
+                <img src="assets/imgs/logo4.png" alt="">
+            </div>
+            
+          </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="section" id="popular">
+          <div class="container">
+              <span class="section__subtitle">
+                  Best Choice
+              </span>
+              <h2 class="section__title">
+                  Popular Residences <span>.</span>
+              </h2>
+
+              <div class="popluar__conatiner">
+                <div>
+
+                    <article class="popular__card">
+                        <img src="assets/imgs/popular1.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <h2 class="popular__price">
+                                <span>₹</span> 2.5 Cr
+                            </h2>
+                                
+
+                            <h3 class="popular__title">
+                                Dream Garden</h3>
+                                
+                            <p class="popular__description">
+                                Street The Garden city of Miraflores, Lima - <br> New Delhi 110078
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="assets/imgs/popular4.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <h2 class="popular__price">
+                                <span>₹</span> 2.95 Cr
+                            </h2>
+
+                            <h3 class="popular__title">
+                                Sunset Marie
+                            </h3>
+                                
+                            <p class="popular__description">
+                                Street The Garden city of Miraflores, Lima - <br> New Delhi 110078
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="assets/imgs/popular2.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <h2 class="popular__price">
+                                <span>₹</span> 1.95 Cr
+                            </h2>
+                               
+                            <h3 class="popular__title">
+                                Epiphany
+                            </h3>
+
+                            <p class="popular__description">
+                                Street The Garden city of Miraflores, Lima - <br> New Delhi 110078
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="popular__card">
+                        <img src="assets/imgs/popular3.jpg" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <h2 class="popular__price">
+                                <span>₹</span> 5.5 Cr
+                            </h2>
+
+                            <h3 class="popular__title">
+                                Autumn Snow
+                            </h3>
+
+                            <p class="popular__description">
+                                Street The Garden city of Miraflores, Lima - <br> New Delhi 110078
+                            </p>
+                        </div>
+                    </article>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <!--==================== VALUE ====================-->
+      <section class="value section" id="value"></section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact"></section>
+
+      <!--==================== SUBSCRIBE ====================-->
+      <section class="subscribe section"></section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section"></footer>
 
     <script src="assets/js/main.js"></script>
-
-</body>
+  </body>
 </html>
